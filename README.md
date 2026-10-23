@@ -59,7 +59,7 @@ deno install
 2. Run the dev server
 
 ```bash
-deno run dev
+deno task dev
 ```
 
 3. Open your browser and navigate to [http://localhost:5173](http://localhost:5173)
@@ -68,13 +68,13 @@ deno run dev
 
 ```bash
 # Start development server
-deno run dev
+deno task dev
 
 # Build for production
-deno run build
+deno task build
 
 # Preview production build
-deno run preview
+deno task preview
 ```
 
 ## How It Works
